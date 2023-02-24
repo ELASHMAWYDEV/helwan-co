@@ -1,0 +1,29 @@
+.logo{
+    position: relative;
+}
+img{
+    position: absolute;
+    width: 85px;
+}
+.links{
+   
+   position: relative;
+    display: flex;
+    justify-content: end;
+
+}
+.navbar-nav{
+  margin-top: -15px
+
+}
+.navbar-nav a{
+    font-size: 15px;
+}
+.navbar-nav a.active{
+    color: orange;
+        
+}
+.navbar-nav a:hover{
+    color: black;
+
+}

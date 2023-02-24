@@ -1,0 +1,54 @@
+.page-container1{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: url("/src/assets/Images/Download\ free\ HD\ stock\ image\ of\ Marble\ Quarries\ Macael.jpg");
+  background-size: cover;
+ 
+}
+.section1{
+    flex: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-family: "P22 Mackinac";
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 100px;
+  margin-left:10px;
+  
+}
+.section1 p {
+    margin-top: -80px;
+    margin-left: 110px;
+    color: rgba(255, 255, 255, 0.826);
+    line-height: 1.4;
+  
+}
+.section1 button {
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 17px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.page-container2{
+  background-image: url("/src/assets/Images/Tracked\ Parcel\ stock\ photo.jpg");
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-size: cover;
+}
+.page-container2 h1{
+  color: black;
+}
+.pa p{
+  color: black;
+}
