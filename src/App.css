@@ -1,3 +1,26 @@
+:root {
+  --primary-color: rgb(3, 35, 255);
+  --secondary-color: #282c34;
+  --text-color: #9c9c9c;
+  --font-family-primary: "Metrophobic", "Metrophobic Placeholder", sans-serif;
+  --font-family-secondary: "Montserrat", sans-serif;
+
+  /* --desktop-bp: 1200px;
+  --tablet-bp: 768px;
+  --mobile-bp: 480px; */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+  outline: none;
+  text-decoration: none;
+}
+
+
 .App {
   text-align: center;
 }
@@ -23,7 +46,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 
 .App-link {
   color: #61dafb;

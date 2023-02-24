@@ -1,41 +1,33 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "../style/header.css";
-import logo from'../assets/Images/helwan-logo.png'
-export default class Header extends Component {
-  render() {
-    return (
-      <>
-        <div className="topbar-container">
-          <div className="logo">
+import logo from "../assets/Images/helwan-logo.png";
+import { Link } from "react-router-dom";
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <>
+      <div className="topbar-container">
+        <a className="logo" href="/">
           <img src={logo} alt="" />
-            <nav class="navbar bg-body-tertiary">
-              <div class="container">
-                <a class="navbar-brand" href="#">
-                 
-                </a>
-              </div>
-            </nav>
-          </div>
-          <div className="links">
-            <nav class="navbar navbar-expand-lg">
-              <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                  <a class=" nav-link" aria-current="page" href="/home">
-                    Home
-                  </a>
-                  <a class="nav-link" href="/manufacturing">
-                    Manufacturing
-                  </a>
-                  <a class="nav-link" href="/about">
-                    About
-                  </a>
-                  <a class="nav-link " href="/contact us">Contact Us</a>
-                </div>
-              </div>
-            </nav>
-          </div>
+        </a>
+        <div className={"hamburger-menu" + (isMenuOpen ? " open" : "")} onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </>
-    );
-  }
-}
+        <nav className={"links-nav-container" + (isMenuOpen ? " open" : "")}>
+          <Link to="/">Home</Link>
+          <Link to="/manufacturing">Manufacturing</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact Us</Link>
+        </nav>
+      </div>
+    </>
+  );
+};
+
+export default Header;
