@@ -35,14 +35,14 @@ Export and import and agriculturalreclamation</p>
 
            </div>
            <hr />
-           <div className="row">
+           
             <p className='col-sm'>
                 &copy;{new Date().getFullYear()} Helwan Co.
             </p>
            </div>
         </div>
        
-      </div>
+      
       </>
     )
   }

@@ -3,15 +3,15 @@ import Header from "../Components/Header";
 import "../style/home.css";
 import Footer from "./../Components/Footer";
 import { Link } from "react-router-dom";
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import product9 from '../assets/Images/photo.png.jpg'
-import product10 from '../assets/Images/png.jpeg'
-import product11 from '../assets/Images/photo2.jpg'
-import product12 from '../assets/Images/tirsta.jpeg'
-import '../style/product.css'
-
-
+import Product1 from "../assets/Images/product-1.jpg";
+import Product2 from "../assets/Images/product-2.jpg";
+import Product4 from "../assets/Images/product-4.jpg";
+import Product5 from "../assets/Images/product-5.jpg";
+import Product6 from "../assets/Images/product-6.jpg";
+import Product7 from "../assets/Images/product-7.jpg";
+import Product8 from "../assets/Images/product-8.jpg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default function Home() {
   const responsive = {
@@ -59,9 +59,7 @@ export default function Home() {
         <p>
           At Helwan, we are proud to offer our products to customers around the world. With our expertise in
           exporting and importing, we can ensure that your order is delivered on time and in excellent condition, no
-          matter where yimport product from './../Components/product';
-ou are located. We work import product from './../Components/Product';
-with trusted shipping partners to provide reliable and efficient
+          matter where you are located. We work with trusted shipping partners to provide reliable and efficient
           delivery services, and we handle all of the necessary paperwork and documentation to make the process as
           smooth and hassle-free as possible. Whether you need a small shipment for a personal project or a large
           order for a commercial project, Helwan is your go-to source for top-quality manufactured marble products.
@@ -70,35 +68,29 @@ with trusted shipping partners to provide reliable and efficient
     </div>
     <div className="our-products-section">
       <h1>Our Products</h1>
-      <Carousel responsive={responsive}>
-      <div className="card">
-        <img src={product9} className="product--image" alt="" />
-        <h3>جرانيت الشيخ فضل</h3>
-        <a href={product9}>show</a></div>
-        <div className="card">
-        <img src={product10} className="product--image" alt="" />
-        <h3>رخام اسود قصير</h3>
-        <a href={product10}>show</a>
+      <div className="products-grid">
+        <div className="product">
+          <img src={Product1} />
         </div>
-        <div className="card">
-        <img src={product11} className="product--image" alt="" />
-        <h3>رخام جلاله </h3>
-        <a href={product11}>show</a>
+        <div className="product">
+          <img src={Product2} />
         </div>
-        <div className="card">
-        <img src={product12} className="product--image" alt="" />
-        <h3> تريستا</h3>
-        <a href={product12}>show</a>
+        <div className="product">
+          <img src={Product4} />
         </div>
-        <div className="card">
-        <img src={product9} className="product--image" alt="" />
-        <h3>جرانيت الشيخ فضل</h3>
-        <a href={product9}>show</a></div>
-       
- 
-</Carousel>
-
-      
+        <div className="product">
+          <img src={Product5} />
+        </div>
+        <div className="product">
+          <img src={Product6} />
+        </div>
+        <div className="product">
+          <img src={Product7} />
+        </div>
+        <div className="product">
+          <img src={Product8} />
+        </div>
+      </div>
       
     </div>
 

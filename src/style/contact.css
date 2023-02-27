@@ -1,0 +1,70 @@
+.contact-wrapper{
+    background-image: url("../assets/Images/manufuctring.png");
+    display: flex;
+    min-height: 50vh;
+    background-size: cover;
+}
+.contact-section {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-section h1{
+    color: var(#9c9c9c);
+    font-weight: 600;
+  }
+  .container{
+    display: flex;
+    justify-content:flex-start
+    
+  }
+  .contact-form{
+ display: flex;
+ justify-content: center;
+ margin: 50px;
+ 
+
+  }
+
+  .input-group{
+    flex-basis: 18%;
+  }
+  .input-group input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea{
+  
+    width:100% ;
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  .input-group a{
+    display: block;
+    width: 450px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    padding: 8px 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+  }
+  .content-right h5{
+    text-align: center;
+    color: #ccc;
+    font-size: 20px;
+  }

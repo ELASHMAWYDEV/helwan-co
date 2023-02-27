@@ -10,6 +10,7 @@
   justify-content: center;
   max-width: 100%;
   overflow: hidden;
+  
 }
 .container {
   max-width: 1170px;
@@ -17,8 +18,12 @@
 }
 .container .row {
   display: flex;
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
+
+
+ 
+  
 }
 .main-footer .col {
   width: 50%;
@@ -38,15 +43,9 @@ ul li a {
   text-decoration: none;
   color: #bbbbbb;
 }
-.col p {
-  position: absolute;
-  margin: 30px;
-}
-.logoo {
-  position: relative;
-}
+
+
 .logoo img {
   width: 150px;
-  position: absolute;
-  margin-left: -110px;
+
 }

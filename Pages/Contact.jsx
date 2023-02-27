@@ -4,7 +4,6 @@ import Footer from './../Components/Footer';
 import '../style/contact.css'
 
 export default function Contact() {
- 
   return (
    <>
      <Header />
