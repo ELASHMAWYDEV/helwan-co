@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import Header from "../Components/Header";
 import "../style/home.css";
 import Footer from "./../Components/Footer";
@@ -40,6 +40,7 @@ const responsive = {
   },
 };
 
+
 export default function Home() {
   const [currentImage, setCurrentImage] = useState(null);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -54,6 +55,13 @@ export default function Home() {
     setCurrentImage(null);
     setIsViewerOpen(false);
   };
+
+  // Go to products section if the url contains #our-products
+  useEffect(() => {
+    if (window.location.hash == "#our-products") {
+      document.getElementById("our-products")?.scrollIntoView();
+    }
+  }, []);
 
   return (
     <>
