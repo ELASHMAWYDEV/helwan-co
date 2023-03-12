@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <nav className={"links-nav-container" + (isMenuOpen ? " open" : "")}>
           <Link to="/">Home</Link>
-          <a href="#our-products">Products</a>
+          <a href="/home/#our-products">Products</a>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact Us</Link>
         </nav>

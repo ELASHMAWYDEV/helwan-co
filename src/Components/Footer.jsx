@@ -11,7 +11,7 @@ export default class Footer extends Component {
             <h5>Home</h5>
             <ul>
               <li>
-                <a href="#">Manufacturing</a>
+                <a href="#">products</a>
               </li>
               <li>
                 <a href="#">About</a>

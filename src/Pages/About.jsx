@@ -17,23 +17,32 @@ export default function About() {
               <div className="container">
                 <div className="row">
                   <div className="col-md-4">
+                    <div className="about-item text-center">
                     <i className='fa fa-book'></i>
                     <h3>MISSION</h3>
                     <hr />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo quaerat alias quas.</p>
                   </div>
+                  </div>
                   <div className="col-md-4">
-                    <i className='fa fa-book'></i>
-                    <h3>VISSION</h3>
+                    <div className="about-item text-center">
+                    <i className='fa fa-globe'></i>
+                    <h3> VISSION</h3>
                     <hr />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo quaerat alias quas.</p>
                   </div>
+                  </div>
                   <div className="col-md-4">
-                    <i className='fa fa-book'></i>
-                    <h3>ACHIEVEMNTS</h3>
+                    <div className="about-item text-center">
+                    <i className='fa fa-pencil'></i>
+                    <h3>MISSION</h3>
                     <hr />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo quaerat alias quas.</p>
                   </div>
+                  </div>
+                
+                
+                
                 </div>
               </div>
             </div>

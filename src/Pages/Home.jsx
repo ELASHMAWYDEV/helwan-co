@@ -8,8 +8,17 @@ import "react-multi-carousel/lib/styles.css";
 import ImageViewer from "react-simple-image-viewer";
 import product9 from "../assets/Images/photo.png.jpg";
 import product10 from "../assets/Images/png.jpeg";
+import granite1 from "../assets/Images/granite1.jpg"
+import garnite2 from "../assets/Images/garnite2.jpg"
+import granite3 from "../assets/Images/granite3.jpg"
+import granite4 from "../assets/Images/granite4.jpg"
+import granite5 from "../assets/Images/granite5.jpg"
+import granite6 from "../assets/Images/granite6.jpg"
 import product11 from "../assets/Images/photo2.jpg";
-import product12 from "../assets/Images/tirsta.jpeg";
+import marple1 from "../assets/Images/marple1.jpeg"
+import marple2 from "../assets/Images/marple2.jpeg"
+import marple4 from "../assets/Images/marple4.jpeg"
+import marple3 from "../assets/Images/marple3.jpeg"
 import "../style/product.css";
 
 const responsive = {
@@ -100,50 +109,58 @@ export default function Home() {
           <Carousel responsive={responsive} autoPlay>
             <div className="card">
               <img src={product10} alt="" onClick={() => openImageViewer(product10)} />
-              <h3>Short black marble</h3>
+              <h3>اسود قصير</h3>
             </div>
             <div className="card">
               <img src={product11} alt="" onClick={() => openImageViewer(product11)} />
-              <h3>Galala marble</h3>
+              <h3>رخام جلاله</h3>
             </div>
             <div className="card">
-              <img src={product10} alt="" onClick={() => openImageViewer(product10)} />
-              <h3>Short black marble</h3>
+              <img src={marple1} alt="" onClick={() => openImageViewer(marple1)} />
+              <h3>جولدن كريمي</h3>
             </div>
             <div className="card">
-              <img src={product11} alt="" onClick={() => openImageViewer(product11)} />
-              <h3>Galala marble</h3>
+              <img src={marple2} alt="" onClick={() => openImageViewer(marple2)} />
+              <h3>رخام سماحه</h3>
             </div>
             <div className="card">
-              <img src={product10} alt="" onClick={() => openImageViewer(product10)} />
-              <h3>Short black marble</h3>
+              <img src={marple3} alt="" onClick={() => openImageViewer(marple3)} />
+              <h3>رخام زعفرانه</h3>
             </div>
             <div className="card">
-              <img src={product11} alt="" onClick={() => openImageViewer(product11)} />
-              <h3>Galala marble</h3>
+              <img src={marple4} alt="" onClick={() => openImageViewer(marple4)} />
+              <h3>رخام خاتميه غامق</h3>
             </div>
           </Carousel>
         ) : (
           <Carousel responsive={responsive} autoPlay>
             <div className="card">
-              <img src={product9} alt="" onClick={() => openImageViewer(product9)} />
-              <h3>Sheikh Fadl granite</h3>
+              <img src={granite4} alt="" onClick={() => openImageViewer(granite4)} />
+              <h3>فيردي غزال</h3>
             </div>
             <div className="card">
               <img src={product10} alt="" onClick={() => openImageViewer(product9)} />
-              <h3>Sheikh Fadl granite</h3>
+              <h3>شيخ فضل جرانيت</h3>
             </div>
             <div className="card">
-              <img src={product9} alt="" onClick={() => openImageViewer(product9)} />
-              <h3>Sheikh Fadl granite</h3>
+              <img src={garnite2} alt="" onClick={() => openImageViewer(garnite2)} />
+              <h3>اسود اسوان</h3>
             </div>
             <div className="card">
-              <img src={product10} alt="" onClick={() => openImageViewer(product9)} />
-              <h3>Sheikh Fadl granite</h3>
+            <img src={granite1} alt="" onClick={() => openImageViewer(granite1)} />
+              <h3>روزا النصر</h3>
             </div>
             <div className="card">
-              <img src={product9} alt="" onClick={() => openImageViewer(product9)} />
-              <h3>Sheikh Fadl granite</h3>
+              <img src={granite3} alt="" onClick={() => openImageViewer(granite3)} />
+              <h3>حلايب جرانيت</h3>
+            </div>
+            <div className="card">
+              <img src={granite6} alt="" onClick={() => openImageViewer(granite6)} />
+              <h3>رمادي الشركه</h3>
+            </div>
+            <div className="card">
+              <img src={granite5} alt="" onClick={() => openImageViewer(granite5)} />
+              <h3>احمر رويال</h3>
             </div>
           </Carousel>
         )}
@@ -151,14 +168,14 @@ export default function Home() {
 
       <div style={{ position: "absolute", zIndex: 1000 }}>
         {isViewerOpen && currentImage && (
-          <ImageViewer
+        <ImageViewer
             src={[currentImage]}
             currentIndex={0}
             disableScroll={true}
             closeOnClickOutside={true}
             onClose={closeImageViewer}
             backgroundStyle={{ backgroundColor: "rgba(0,0,0,0.9)" }}
-          />
+            />
         )}
       </div>
 
