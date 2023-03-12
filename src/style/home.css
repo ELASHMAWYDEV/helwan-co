@@ -91,6 +91,7 @@ h1 {
   box-shadow: none;
   width: max-content;
   user-select: none;
+  border: none;
 }
 
 .our-products-section .card h3 {
