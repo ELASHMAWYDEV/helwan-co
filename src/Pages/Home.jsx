@@ -72,9 +72,9 @@ export default function Home() {
           <p>
             We offer a wide variety of marble products that are both beautiful and durable, making them perfect for any
             home or commercial space. Our marble is expertly crafted using the latest technology and highest quality
-            materials, ensuring that each piece is unique and long-lasting. At Helwan, we are committed to providing our
+            materials, ensuring that each piece is unique and long-lasting. At ElHoda, we are committed to providing our
             customers with exceptional products and outstanding customer service. Browse our selection of marble
-            products today and discover how Helwan can help you transform your space.
+            products today and discover how ElHoda can help you transform your space.
           </p>
           <Link to="/contact">Contact Us</Link>
         </div>
@@ -87,13 +87,13 @@ export default function Home() {
             High-Quality Marble Products
           </h1>
           <p>
-            At Helwan, we are proud to offer our products to customers around the world. With our expertise in exporting
+            At ElHoda, we are proud to offer our products to customers around the world. With our expertise in exporting
             and importing, we can ensure that your order is delivered on time and in excellent condition, no matter
-            where yimport product from './../Components/product'; ou are located. We work import product from
-            './../Components/Product'; with trusted shipping partners to provide reliable and efficient delivery
+            where you import products from. We work import product from
+             with trusted shipping partners to provide reliable and efficient delivery
             services, and we handle all of the necessary paperwork and documentation to make the process as smooth and
             hassle-free as possible. Whether you need a small shipment for a personal project or a large order for a
-            commercial project, Helwan is your go-to source for top-quality manufactured marble products.
+            commercial project, ElHoda is your go-to source for top-quality manufactured marble products.
           </p>
         </div>
       </div>

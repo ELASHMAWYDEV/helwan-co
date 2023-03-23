@@ -46,7 +46,11 @@ ul li a {
   color: #bbbbbb;
 }
 
-.logoo img {
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo img {
   width: 150px;
 }
 

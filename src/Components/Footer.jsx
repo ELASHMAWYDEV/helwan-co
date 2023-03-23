@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../style/footer.css";
-import logo from "../assets/Images/helwan-logo.png";
+import logo from "../assets/Images/logo-no-background.png";
 
 export default class Footer extends Component {
   render() {
@@ -25,12 +25,12 @@ export default class Footer extends Component {
             <div className="logo">
               <img src={logo} alt="" />
             </div>
-            <p>Helwan Co. for construction and development Export and import and agriculturalreclamation</p>
+            <p>ElHoda Co. for construction and development Export and import and agriculturalreclamation</p>
           </div>
         </div>
         <hr />
         <div className="footer-bottom">
-          <p className="col-sm">&copy;{new Date().getFullYear()} Helwan Co.</p>
+          <p className="col-sm">&copy;{new Date().getFullYear()} ElHoda Co.</p>
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style/header.css";
-import logo from "../assets/Images/helwan-logo.png";
+import logo from "../assets/Images/logo-no-background.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
