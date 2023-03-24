@@ -87,7 +87,7 @@ export default function Home() {
             High-Quality Marble Products
           </h1>
           <p>
-            At ElHoda, we are proud to offer our products to customers around the world. With our expertise in exporting
+            At ElHoda, we  are proud to offer our products to customers around the world. With our expertise in exporting
             and importing, we can ensure that your order is delivered on time and in excellent condition, no matter
             where you import products from. We work import product from
              with trusted shipping partners to provide reliable and efficient delivery
