@@ -92,6 +92,7 @@ h1 {
   width: max-content;
   user-select: none;
   border: none;
+  margin-right: 20px;
 }
 
 .our-products-section .card h3 {
@@ -100,6 +101,12 @@ h1 {
   font-weight: bold;
   color: var(--secondary-color);
   margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .our-products-section .card img {
